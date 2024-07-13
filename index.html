@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(149, 151, 151);
+            height: 70px;
+        }
+        
+        .ul {
+            display: flex;
+        }
+        
+        .list {
+            list-style: none;
+            margin: 25px;
+            margin-left: 20px;
+            color: rgb(242, 236, 236);
+        }
+        
+        .list:hover {
+            color: black;
+            font-size: 20px;
+        }
+        
+        #btn {
+            margin-top: 20px;
+            margin-right: 20px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        
+        #btn:hover {
+            font-size: 14px;
+        }
+        
+        #heading {
+            margin-top: 19%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="left">
+            <ul class="ul">
+                <li class="list">HOME</li>
+                <li class="list">ABOUT</li>
+                <li class="list">CONTACT</li>
+            </ul>
+        </div>
+        <div class="right">
+            <button id="btn">MODE</button>
+        </div>
+    </div>
+    <center>
+        <h1 id="heading">It's Light Mode</h1>
+    </center>
+    <script src="script.js"></script>
+</body>
+
+</html>
